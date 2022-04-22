@@ -8,13 +8,18 @@ html(lang="en")
     block scripts
     block styles
       link(rel="stylesheet", href="../sass/app.sass")
+      // Reset
       link( 
         rel="stylesheet" 
         href="https://unpkg.com/modern-css-reset/dist/reset.min.css" 
       )
-  body 
+  body
+    block header
+      include includes/header
     block nav
-      include includes/nav.pug
+      include includes/nav
     block content
-    block footer
-      include includes/footer.pug
+      include sections/idea
+      include sections/about
+  block footer
+      include includes/footer
