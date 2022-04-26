@@ -1,4 +1,32 @@
+include ../mixins/flipCard
+
 section#about
-    h1 About us
-    p blablablablablablablablablablablablablablablablablablablablablabla
-    p maybe some cards for the ppl???
+    .content-block
+        h1 About us
+        p blablablablablablablablablablablablablablablablablablablablablabla
+        p maybe some cards for the ppl???
+    .cards
+        +card(
+            "Robin",
+            "https://cdn.discordapp.com/avatars/233286691744514069/de1bf6d6717750144500f8d3bb3a9d6b.png",
+            "Robins Discord Profilbild",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        )
+        +card(
+            "Maxim",
+            "https://cdn.discordapp.com/avatars/576666905926959125/af1650a3e6825f7d53c19c190b060f40.png",
+            "Maxims Discord Profilbild",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        )
+        +card(
+            "Paul",
+            "https://cdn.discordapp.com/avatars/409316079744188426/6878de02a1ad83b7beffeb2ca5bf667e.png",
+            "Pauls Discord Profilbild",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        )
+        +card(
+            "Thomas",
+            "https://cdn.discordapp.com/avatars/266187155406192640/25bfac085f48766bfae191abe3575c9a.png",
+            "Thomas' Discord Profilbild",
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        )

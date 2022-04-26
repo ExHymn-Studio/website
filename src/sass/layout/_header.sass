@@ -2,7 +2,12 @@ header
   background-color: #1a1a1a
   display: flex
   justify-content: center
-  height: 80%
+  align-items: center
+  height: 80vh
   img
-    height: 70vh
-    margin: 50px 0
+    @media (orientation: landscape)
+      height: 70vh
+      //width: auto
+    @media (orientation: portrait)
+      //height: auto
+      width: 70vw

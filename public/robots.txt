@@ -1,0 +1,3 @@
+# beep boop motherfucker
+User-agent: *
+Disallow:

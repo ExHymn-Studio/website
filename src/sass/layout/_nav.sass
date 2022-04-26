@@ -1,12 +1,24 @@
 @import "../util/_var"
 
-
 nav
+  background-color: $bg-secondary
+  height: 10vh
   display: flex
   justify-content: center
-  background-color: #1a1a1a
   a.el
     padding: 15px
-    color: #d7d7d7
+    color: $color-text
+    font-size: 2rem
+    text-decoration: none
     &:hover
-      color: #ffffff
+      color: $color-headers
+      text-decoration: underline
+      cursor: pointer
+
+.divider
+  box-sizing: border-box
+  border-style: solid
+  border-width: 10vh 50vw
+  border-color: $bg-secondary transparent transparent
+  height: 5vh
+  width: 100%

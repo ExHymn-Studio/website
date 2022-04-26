@@ -1,0 +1,49 @@
+@mixin size($w, $h: $w)
+  width: $w
+  height: $h
+
+.card
+  $gap: 30px
+  border-radius: $gap / 2
+  @media (min-width: 300px + $gap)
+    margin: $gap / 2
+  margin: ($gap / 2) auto
+  background-color: transparent
+  @include size(300px, 400px)
+  perspective: 1000px
+  filter: drop-shadow(0 10px 15px #0000003f)
+  .inner
+    position: relative
+    @include size(100%)
+    text-align: center
+    transition: transform 0.8s
+    transform-style: preserve-3d
+    .front, .back
+      border-radius: 15px
+      position: absolute
+      @include size(100%)
+      -webkit-backface-visibility: hidden
+      backface-visibility: hidden
+    .front
+      background-color: $card-bg
+      color: $color-headers
+      img
+        margin: 50px 50px 50px
+        border-radius: 50%
+        @include size(200px)
+      h2
+        font-size: 2.5rem
+    .back
+      background-color: $card-bg
+      padding: 50px
+      color: $color-text
+      transform: rotateY(180deg)
+  &:hover
+    .inner
+      transform: rotateY(180deg)
+
+.cards
+  margin: 3rem 0
+  display: flex
+  justify-content: center
+  flex-wrap: wrap

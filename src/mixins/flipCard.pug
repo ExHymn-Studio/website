@@ -1,0 +1,8 @@
+mixin card(name, imgsrc, imgalt, description)
+    .card
+        .inner
+            .front
+                img( src=imgsrc alt=imgalt )
+                h2= name
+            .back
+                p= description
