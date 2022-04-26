@@ -1,3 +1,4 @@
 import "../sass/app.sass";
 
-import "./smoothTo"
+import "./smoothTo";
+import "./dgpsLock";
