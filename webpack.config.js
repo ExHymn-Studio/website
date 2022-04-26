@@ -1,6 +1,5 @@
 const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
     entry: "./src/scripts/app.ts", resolve: {
@@ -13,7 +12,7 @@ module.exports = {
         }, {
             test: /\.sass$/, use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
         },],
-    }, plugins: [new CopyPlugin({patterns: [{from: "./public"}]}), new MiniCssExtractPlugin({
+    }, plugins: [new MiniCssExtractPlugin({
         filename: "[name].css", chunkFilename: "[id].css",
     }), new HtmlWebPackPlugin({
         template: "./src/pages/index.pug", filename: "./index.html",
