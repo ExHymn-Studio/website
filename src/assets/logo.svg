@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="15.177771mm"
+   height="19.930246mm"
+   viewBox="0 0 15.177771 19.930247"
+   version="1.1"
+   id="svg932"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04, custom)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/fells/bitmap.png"
+   inkscape:export-xdpi="600"
+   inkscape:export-ydpi="600"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview934"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="5.986532"
+     inkscape:cx="26.309055"
+     inkscape:cy="36.415073"
+     inkscape:window-width="1920"
+     inkscape:window-height="1158"
+     inkscape:window-x="0"
+     inkscape:window-y="42"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g19972" />
+  <defs
+     id="defs929" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-98.128972,-94.49489)">
+    <g
+       id="g19972"
+       transform="translate(37.406079,15.046367)">
+      <text
+         xml:space="preserve"
+         style="font-size:3.52777px;line-height:4.03px;font-family:Amiri;-inkscape-font-specification:Amiri;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+         x="68.212715"
+         y="87.449509"
+         id="text1460"><tspan
+           sodipodi:role="line"
+           id="tspan1458"
+           style="font-size:12.3472px;text-align:center;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="68.212715"
+           y="87.449509">EX</tspan><tspan
+           sodipodi:role="line"
+           style="font-size:6.35px;text-align:center;text-anchor:middle;fill:#e6e6e6;fill-opacity:1;stroke-width:0.264583"
+           x="68.212715"
+           y="91.872826"
+           id="tspan1462">Hymn</tspan></text>
+      <g
+         id="g19246"
+         transform="translate(0.2047018)">
+        <path
+           id="path13993"
+           style="fill:#e6e6e6;stroke:#e6e6e6;stroke-width:0.499998;stroke-linecap:square;stroke-linejoin:round"
+           d="m 68.093476,94.072963 a 2.5051123,2.5278293 0 0 0 -2.504833,2.527552 2.5051123,2.5278293 0 0 0 2.504833,2.528256 2.5051123,2.5278293 0 0 0 0.861168,-0.155931 2.5051123,2.5278293 0 0 1 -1.643665,-2.372325 2.5051123,2.5278293 0 0 1 1.646474,-2.372324 2.5051123,2.5278293 0 0 0 -0.863977,-0.155228 z" />
+        <path
+           id="path14087"
+           style="fill:#e6e6e6;stroke:#e6e6e6;stroke-width:0.499999;stroke-linecap:square;stroke-linejoin:round"
+           d="m 70.085391,95.019373 a 1.5662242,1.5814465 0 0 0 -1.566049,1.581274 1.5662242,1.5814465 0 0 0 1.566049,1.581713 1.5662242,1.5814465 0 0 0 0.538413,-0.09755 1.5662242,1.5814465 0 0 1 -1.027639,-1.48416 1.5662242,1.5814465 0 0 1 1.029395,-1.484161 1.5662242,1.5814465 0 0 0 -0.540169,-0.09711 z" />
+      </g>
+    </g>
+  </g>
+</svg>
