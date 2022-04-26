@@ -10,12 +10,13 @@ if (checkDgpsLock()) {
 }
 
 function checkDgpsLock(): boolean {
-    const isUnlocked = localStorage.getItem("unlocked");
-    return (location.hash === "#d" || !isUnlocked);
+    const isLocked = localStorage.getItem("unlocked") == "no";
+    return (location.hash === "#d" || isLocked);
 }
 
 function lockInit(page: HTMLDivElement) {
     const lock = document.getElementById("dgpslock") as HTMLDivElement;
+    localStorage.setItem("unlocked", "no");
     lock.classList.remove("hidden");
 
     const submitFakePwBtn = document.getElementById("submitfake") as HTMLDivElement;
@@ -35,5 +36,5 @@ function lockInit(page: HTMLDivElement) {
 }
 
 function makeDgpsHash() {
-    if (localStorage.getItem("unlocked")) location.hash = "#d";
+    if (localStorage.getItem("unlocked") == "yes") location.hash = "#d";
 }
